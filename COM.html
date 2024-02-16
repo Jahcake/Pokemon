@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <meta charset="UTF-8">
+        <title>Pokemon</title>
+    <style>
+            html{
+        background: #FFFFED;
+            }
+        body{
+        width: 800px;
+        margin: 0 auto;
+            }
+            
+p{
+    font-family: times:
+    
+}
+
+    footer{
+            text-align: center;
+            font-size: 14px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 10px;
+}
+
+h1, h2, h3, h4, h5{
+    font-family: Helvetica;
+}
+h1{ color: brown;
+
+}
+
+#img1{
+    width: 100%;
+}
+
+#table1 {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 2px solid #dddddd;
+  text-align: left;
+  padding: 10px;
+  margin: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+#topnav{
+            float:right
+}       
+#topnav a{
+    float: left;
+    color: blueviolet;
+    text-align: center;
+    padding: 14px;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: 16px
+}
+
+#topnav a:hover{
+    background: rgb(20,20,20);
+    color: white;
+        }
+.answer {
+      display: none;
+    }
+}</style>
+      
+    </head>
+<body>
+    <header>
+    <div id = "header">
+        <header>
+            <h1>Pokemon Introduction</h1></header>
+    
+    <span id = "topnav">
+        <p>
+        <a href="#sec1">Description</a>
+        <a href="#sec2">Cultural Influence</a>
+        <a href="#sec3">Ability</a>
+            </p>
+    </span>
+        </div>
+    </header>
+   <main>
+    <h2>Pikachu #0025</h2>
+    
+    <div id = "banner">
+        <img src="https://upload.wikimedia.org/wikipedia/zh/7/77/Pikachu.png"/>
+    </div>
+    
+    
+    
+        <div id = "sec1">
+        <h2>Description</h2>
+        <hr><!-- this is a breaking line -->
+         Pikachu is a fictional species of the Pokémon media franchise. Designed by Atsuko Nishida and Ken Sugimori, Pikachu first appeared in the 1996 Japanese video games Pokémon Red and Pokémon Green created by Game Freak and Nintendo, which were released outside of Japan in 1998 as Pokémon Red and Pokémon Blue. Pikachu is a yellow, mouse-like creature with electrical abilities. It is a major character in the Pokémon franchise, serving as its mascot and as a major mascot for Nintendo. 
+            
+         <div id = "img1">
+            <h2>Evolution chart</h2>
+        <hr><!-- this is a breaking line -->
+            <img src="https://pokemongrowthcom.files.wordpress.com/2016/05/image3.png">
+            </div>
+        
+    </div>
+     
+        <div id = "sec2">
+        <h2>Cultural Influence</h2>
+        <hr><!-- this is a breaking line -->
+        <p> Pikachu is widely considered to be the most popular and well-known Pokémon species, largely due to its appearance in the Pokémon anime television series as the companion of protagonist Ash Ketchum. In most vocalized appearances Pikachu is voiced by Ikue Ōtani, though it has been portrayed by other actors, notably Ryan Reynolds in the live-action animated film Pokémon Detective Pikachu. Pikachu has been well-received by critics, with particular praise given for its cuteness, and has come to be regarded as an icon of Japanese pop culture.</p>
+    </div>
+
+        <div id = "sec3"> 
+        <h2>Ability</h2>
+        <hr><!-- this is a breaking line -->
+        <p>When several of these POKéMON gather, their electricity could build and cause lightning storms</p>
+        </div>
+    
+    
+    <div id = "table1">
+
+
+
+<h2>Other characters</h2>
+<hr><!-- this is a breaking line -->
+<table>
+  <tr>
+    <th>Specie</th>
+    <th>Type(s)</th>
+    <th>Area</th>
+  </tr>
+  <tr>
+    <td>Rhydon</td>
+    <td>Ground/Rock</td>
+    <td>Hills</td>
+  </tr>
+  <tr>
+    <td>Grotle</td>
+    <td>Grass</td>
+    <td>Forests</td>
+  </tr>
+  <tr>
+    <td>Torterra</td>
+    <td>Grass</td>
+    <td>Forests</td>
+  </tr>
+  <tr>
+    <td>Bibarel</td>
+    <td>Normal/Water</td>
+    <td>Rivers</td>
+  </tr>
+  <tr>
+    <td>Cranidos</td>
+    <td>Yoshi Tannamuri</td>
+    <td>Jungles</td>
+  </tr>
+  <tr>
+    <td>Bastiodon</td>
+    <td>Rock</td>
+    <td>Revive from Skull Fossil</td>
+  </tr>
+</table>
+    </div>
+        
+        <div id = "table2">
+                    <h2>Tales</h2>
+            <hr><!-- this is a breaking line -->
+                    <ul>
+                        <li><strong>Red and White</strong></li>
+                        <li><strong>Black and White</strong></li>
+                        <li><strong>Sun and Moon</strong></li>
+                    </ul>
+                </div>
+       
+        <div id = "table3">
+       <h2>Food they like</h2> 
+    <hr><!-- this is a breaking line -->
+    <ol>
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
+            
+ <h2><p>Quiz Time</p>  </h2> 
+<hr><!-- this is a breaking line -->
+            <h3><p>What is the shape of female Pikachu's tail?</p></h3>
+<script>
+    function revealAnswer() {
+      document.getElementById("answer").style.display = "block";
+    }
+  </script>
+  <ul>
+    <li>Heart</li>
+    <li>Round</li>
+    <li>Thunder</li>
+  </ul>
+  <button onclick="revealAnswer()">Click to reveal answer</button>
+  <p class="answer" id="answer">The correct answer is Heart.</p>
+            
+    </main>
+    
+   <footer> 
+    <div id = "links">
+            <a href="https://www.nintendo.com.hk/"> Offical webpage</a>
+        <br>
+            <a href="p2.html"> Page 2 </a>
+        <br>
+            <a href="p3.html"> Page 3</a>
+        <br>
+        <a href="#">BACK TO TOP</a>
+    </div>
+    </footer>
+</body>      
+</html>
